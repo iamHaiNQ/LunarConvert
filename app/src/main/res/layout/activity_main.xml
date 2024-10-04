@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Dương lịch sang âm lịch -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert Dương lịch to Âm lịch"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/solarDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day" />
+
+    <EditText
+        android:id="@+id/solarMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Month" />
+
+    <EditText
+        android:id="@+id/solarYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year" />
+
+    <Button
+        android:id="@+id/btnConvertSolarToLunar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert" />
+
+    <TextView
+        android:id="@+id/lunarResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày âm:"
+        android:textSize="16sp" />
+
+    <!-- Âm lịch sang dương lịch -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert Âm lịch to Dương lịch"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/lunarDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day" />
+
+    <EditText
+        android:id="@+id/lunarMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Month" />
+
+    <EditText
+        android:id="@+id/lunarYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year" />
+
+    <EditText
+        android:id="@+id/lunarLeap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tháng nhuận(0 or 1)" />
+
+    <Button
+        android:id="@+id/btnConvertLunarToSolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert" />
+
+    <TextView
+        android:id="@+id/solarResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày Dương:"
+        android:textSize="16sp" />
+
+</LinearLayout>
